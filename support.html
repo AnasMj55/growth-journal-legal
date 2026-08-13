@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seicho — Support</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1c2128;
+    --muted: #5a646f;
+    --rule: #e2e5e9;
+    --accent: #3e6879;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14181d;
+      --fg: #e9edf1;
+      --muted: #9aa5b1;
+      --rule: #2a3038;
+      --accent: #8fb4c4;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto;
+    padding: 3rem 1.25rem 5rem;
+    max-width: 46rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .4rem; }
+  h2 { font-size: 1.2rem; margin: 2.5rem 0 .6rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); }
+  p, li { color: var(--fg); }
+  ul { padding-left: 1.25rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); font-size: .9rem; margin: 0 0 2rem; }
+  .lede { font-size: 1.05rem; color: var(--muted); }
+  .contact { margin: 1.5rem 0; padding: 1rem 1.25rem; border: 1px solid var(--rule); border-radius: 8px; }
+  footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+
+<h1>Seicho — Support</h1>
+<p class="meta">Last updated: 13 August 2026</p>
+
+<p class="lede">Seicho is a journaling app that gives you feedback on how clearly you articulate your thoughts. If something isn't working, or you have a question this page doesn't answer, email me — it reaches a person, not a queue.</p>
+
+<div class="contact">
+  <strong>Contact:</strong> <a href="mailto:anas.majumder@gmail.com">anas.majumder@gmail.com</a><br>
+  I aim to reply within a few days.
+</div>
+
+<h2>Common questions</h2>
+
+<p><strong>My entry saved but no feedback appeared.</strong><br>
+Feedback is generated on a server after the entry is saved, and usually arrives within 10–30 seconds. Your entry is saved first and is never lost while feedback is being generated. If an entry stays stuck, open it and use the retry option. A network connection is required.</p>
+
+<p><strong>Does the app change what I wrote?</strong><br>
+No. Your entry is stored exactly as you wrote it, and feedback is shown alongside it rather than applied to it. The one exception is dictation: punctuation and capitalization are added to raw speech-to-text, and the app verifies that every word came back unchanged before showing it — if anything about the wording changed, you get the original transcript instead. You can edit the result before saving either way.</p>
+
+<p><strong>Dictation says it failed.</strong><br>
+On iPhone, check Settings → General → Keyboard → Enable Dictation. Microphone permission and speech recognition are separate permissions, so granting the microphone alone isn't enough. Dictation also needs a network connection.</p>
+
+<p><strong>How do I delete an entry?</strong><br>
+Open the entry and choose delete. This is immediate and cannot be undone.</p>
+
+<p><strong>How do I delete my account?</strong><br>
+Open Settings in the app and choose <em>Delete account</em>. This permanently erases your account, all of your entries, and all derived feedback. It cannot be undone. If you can't access the app, email me from the address you signed in with and I'll delete it for you.</p>
+
+<p><strong>Can I get a copy of my data?</strong><br>
+Yes — email me from the address you signed in with.</p>
+
+<h2>Privacy</h2>
+<p>What the app collects and who processes it is described in full in the <a href="./">privacy policy</a>.</p>
+
+<footer>Seicho · Anas Majumder</footer>
+
+</body>
+</html>
